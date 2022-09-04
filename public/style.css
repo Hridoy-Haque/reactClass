@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&family=Fira+Code:wght@300;500;600&family=Nunito:wght@300;400;600;700;800&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  border-left: 4px solid rgba(122, 40, 255, 0.3);
+  margin-left: 20px;
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); */
+}
+.cardTitle {
+  margin-bottom: 20px;
+  color: transparent;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgba(156, 95, 255, 0.7);
+}
+
+.cardDesc {
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  margin-bottom: 20px;
+}
