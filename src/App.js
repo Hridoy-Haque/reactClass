@@ -1,11 +1,10 @@
 import React from "react";
-import State from "./State";
-
+import Rendering from "./Rendering/Rendering";
 export default function App() {
   return (
     <div>
       <h1>welcome app</h1>
-      <State />
+      <Rendering />
     </div>
   );
 }
