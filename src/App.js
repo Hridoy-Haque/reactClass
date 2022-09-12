@@ -1,20 +1,11 @@
 import React from "react";
-import ReactBootstrap from "./components/bootstrap/ReactBootstrap";
+import State from "./State";
 
 export default function App() {
   return (
     <div>
-      <ReactBootstrap />
-    </div>
-  );
-}
-import React from "react";
-import ReactBootstrap from "./components/bootstrap/ReactBootstrap";
-
-export default function App() {
-  return (
-    <div>
-      <ReactBootstrap />
+      <h1>welcome app</h1>
+      <State />
     </div>
   );
 }
