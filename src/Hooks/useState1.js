@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 
-export default class EventBind extends Component {
+export default class UseState1 extends Component {
   constructor(props) {
     super(props);
-    this.increaseCount = this.increaseCount.bind(this); // binding
+
     this.state = {
       count: 0,
     };
   }
-  increaseCount() {
+  increaseCount = () => {
     this.setState({
       count: this.state.count + 1,
     });
-  }
+  };
+
   render() {
     const { count } = this.state;
     return (
       <div>
-        <h1>{count}</h1>
-        <button className="btnClass" type="button" onClick={this.increaseCount}>
-          increase
+        <h1>count : {count}</h1>
+        <button className="btnClass" onClick={this.increaseCount}>
+          Increament
         </button>
       </div>
     );

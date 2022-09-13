@@ -20,6 +20,8 @@ body {
   margin: 40px;
 }
 input {
+  outline: none;
+  border: 1px solid #222;
   height: 40px;
   margin-right: 10px;
   padding-left: 10px;
@@ -35,4 +37,11 @@ input {
   border-radius: 3px;
   color: #fff;
   font-size: 18px;
+}
+
+.valid {
+  background-color: rgb(64, 255, 160);
+}
+.inValid {
+  background-color: rgb(255, 23, 62);
 }
